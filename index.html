@@ -6,7 +6,7 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400" rel="stylesheet">
-	<title></title>
+	<title>UP-UP-&-Away</title>
 </head>
 <body>
 
@@ -15,20 +15,22 @@
 		<div class="nav-bar" style="float: right" id="myNavbar">
 
 			<a href="">Destinations</a>
-			<a class="services" href="">Services</a>
+			<a class="midanchor" href="">Services</a>
 			<a href="">Fleet</a>
-			<a href="" style="float: right">Booknow</a>
-			<a class="services" href="" style="float: right">Contact</a>
+			<a class="booknow" href="" style="float: right">Book now</a>
+			<a class="midanchor" href="" style="float: right">Contact</a>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
 
-				<div class="container"onclick="weFunction(this)">
+				<div class="container"onclick="closeFunction(this)">
 					<div class="bar1"></div>
 					<div class="bar2"></div>
 					<div class="bar3"></div>
 				</div>	
 			</a>	
-		</div>
+		</div><!--end of nav-bar/-->
 
+		<div class="logo"></div>
+		<div class="clear-fix"></div>
 	</div>
 
 <script>
@@ -43,7 +45,7 @@ function myFunction() {
 </script>
 
 <script>
-function weFunction(x) {
+function closeFunction(x) {
     x.classList.toggle("change");
 }
 </script>
