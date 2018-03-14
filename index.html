@@ -29,9 +29,82 @@
 			</a>	
 		</div><!--end of nav-bar/-->
 
-		<div class="logo"></div>
+		<div class="logo">
+			<div class="clear-fix"></div>
+		</div>
+
+		<div class="hero-intro">
+
+			Travel the world on an airline that is uniquely tailored to you.
 		<div class="clear-fix"></div>
+		</div>
+
 	</div>
+
+	<div class="hero-about">
+
+		<div class="info-wrap">
+
+			<span>What we do</span>
+			We provide a private jet experience rivalled by none, on new planes.
+
+		</div>
+
+		<div class="info-wrap">
+
+			<span>How it's done</span>
+			Our host journey on the Dassault Falcon line of jets customized for them.
+		</div>
+
+	</div><!--end of the info-wrap-->
+
+	<div class="services-wrap">
+
+		<div class="selection-wrap">
+
+   	 		<a href="">
+
+   	 			<div class="selection-type traditional" onmouseover="styles(landingOptionOne)" onmouseout="styles('Plan the perfect trip(s) to the smallest details with not only destinations but also time. Create the adventure and memories that will last a lifetime.')">TRADITIONALIST
+    			</div>
+
+   	 		</a>
+
+   	 		<a href="">
+   	 			
+   	 			<div class="selection-type yolo" onmouseover="styles(landingOptionTwo)" onmouseout="styles('Plan the perfect trip(s) to the smallest details with not only destinations but also time. Create the adventure and memories that will last a lifetime.')">YOLO
+    			</div>
+
+   	 		</a>
+
+   	 		<a href="">
+   	 			
+   	 			<div class="selection-type continent" onmouseover="styles(landingOptionThree)" onmouseout="styles('Plan the perfect trip(s) to the smallest details with not only destinations but also time. Create the adventure and memories that will last a lifetime.')"> CONTINENTAL
+    			</div>
+
+   	 		</a>
+   	 	</div>	
+
+		<div id="default-selection">
+
+      		Plan the perfect trip(s) to the smallest details with not only destinations but also time. Create the adventure and memories that will last a lifetime.
+
+   	 	</div>
+
+
+   	 	<div class="clear-fix"></div>
+	</div>
+
+	<div class="para-banner">
+
+		<div class="info-wrap">Be the explorer and adventurer you’ve always wanted to be.</div>
+
+	</div>
+
+	<footer>
+
+		hello
+		
+	</footer>
 
 <script>
 function myFunction() {
@@ -48,6 +121,20 @@ function myFunction() {
 function closeFunction(x) {
     x.classList.toggle("change");
 }
+</script>
+
+<script>
+  
+  var landingOptionOne = "With a large selection of destinations, travel from point A to B in privacy and get to your desired place hassle free with style, luxury and comfort.";
+
+  var landingOptionTwo = "Business or leisure? Why not both? Whether a relaxed business errand or a party in the sky, this is an airline that specilazes in the finer things.";
+
+  var landingOptionThree = "Where and when? Be the captain and select the flightpath to a number of cities and exotic locations. Fly anywhere in any order at any time.";
+
+    function styles(description) {
+        console.log(description);
+        document.getElementById('default-selection').innerHTML = description;
+    }
 </script>
 
 
